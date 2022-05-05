@@ -9,28 +9,16 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2526499645293639"
      crossorigin="anonymous"></script>
     
+    <link rel="stylesheet" href="background.css">
     <style type="text/css">
-       body 
-{ 
-    background-image: url('images/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-div{
-      margin: auto;
-}
-#bg{
-     align-items:center;
-}
 #phrase{
   font-size: 40px;
   font-family: Arial;
   font-weight: bold;
   font-style: italic;
-  color: rgb(255,255,255);
+  color: white;
 }
-#download{
+#common-btn{
    height: 40px;
    width: 120px;
    background: rgba(50,50,50,0.5);
@@ -39,98 +27,28 @@ div{
    border: none;
    border-radius: 5px;
    font-family: Arial;
-   font-size: 0.5em;
+   font-size: 0.4em;
 }
-#download:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#discord{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#discord:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#credits{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#credits:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#features{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#features:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#donation{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#donation:hover{
-  font-size: 0.6em;
+#common-btn:hover{
+  font-size: 0.5em;
   height: 70;
   width: 150;
 }
     </style>
 </head>
 <body>
-   <div id="bg">
-   <center>
-    <img src="images/slxp_logo.png" alt="Slobby Xploits logo" style="width:200px;height:200px object-position: 500px 500px;">
-   </center>
-   </div>
-   <div id="phrase">
-   <center>
-    <p>The only exploit you will ever need</p>
-   </center>
-   <div id="buttons">
-   <center>
-    <button id="download" type="button" onclick="window.location.href = 'https://direct-link.net/414115/gateway-to-heaven';">Download</button>
-    <button id="discord" type="button" onclick="window.location.href = 'https://discord.gg/jjD758Z8Wm';">Discord</button>
-    <button id="credits" type="button" onclick="window.location.href = 'credits.html';">Credits</button>
-    <button id="features" type="button" onclick="window.location.href = 'features.html';">Features</button>
-    <button id="donation" type="button" onclick="window.location.href = 'https://www.buymeacoffee.com/Snobbish';">Donate</button>
+   <div class="container" align="center">
+    <img src="images/slxp_logo.png" alt="Slobby Xploits logo" style="width:200px;height:200px">
 
-   </center>
+    <div id="phrase">
+    <p>The only exploit you will ever need</p>
+
+    <button id="common-btn" type="button" onclick="window.location.href = 'https://direct-link.net/414115/gateway-to-heaven';">Download</button>
+    <button id="common-btn" type="button" onclick="window.location.href = 'https://discord.gg/jjD758Z8Wm';">Discord</button>
+    <button id="common-btn" type="button" onclick="window.location.href = 'credits.html';">Credits</button>
+    <button id="common-btn" type="button" onclick="window.location.href = 'features.html';">Features</button>
+    <button id="common-btn" type="button" onclick="window.location.href = 'https://www.buymeacoffee.com/Snobbish';">Support Us</button>
+  </div>
    </div>
 </body>
 </html>

@@ -30,7 +30,7 @@ div{
   font-style: italic;
   color: rgb(255,255,255);
 }
-#download{
+#common-button{
    height: 40px;
    width: 120px;
    background: rgba(50,50,50,0.5);
@@ -41,71 +41,7 @@ div{
    font-family: Arial;
    font-size: 0.5em;
 }
-#download:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#discord{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#discord:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#credits{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#credits:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#features{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#features:hover{
-  font-size: 0.6em;
-  height: 70;
-  width: 150;
-}
-#support{
-   height: 40px;
-   width: 120px;
-   background: rgba(50,50,50,0.5);
-   box-shadow: 2px 2px 2px black;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   font-family: Arial;
-   font-size: 0.5em;
-}
-#support:hover{
+#common-button:hover{
   font-size: 0.6em;
   height: 70;
   width: 150;
@@ -113,24 +49,16 @@ div{
     </style>
 </head>
 <body>
-   <div id="bg">
-   <center>
+   <div id="container" align="center">
     <img src="images/slxp_logo.png" alt="Slobby Xploits logo" style="width:200px;height:200px object-position: 500px 500px;">
-   </center>
-   </div>
-   <div id="phrase">
-   <center>
-    <p>The only exploit you will ever need</p>
-   </center>
-   <div id="buttons">
-   <center>
-    <button id="download" type="button" onclick="window.location.href = 'https://direct-link.net/414115/gateway-to-heaven';">Download</button>
-    <button id="discord" type="button" onclick="window.location.href = 'https://discord.gg/jjD758Z8Wm';">Discord</button>
-    <button id="credits" type="button" onclick="window.location.href = 'credits.html';">Credits</button>
-    <button id="features" type="button" onclick="window.location.href = 'features.html';">Features</button>
-    <button id="support" type="button" onclick="window.location.href = 'https://www.buymeacoffee.com/Snobbish';">Support Us</button>
 
-   </center>
+    <p id="phrase">The only exploit you will ever need</p>
+
+    <button id="common-button" type="button" onclick="window.location.href = 'https://direct-link.net/414115/gateway-to-heaven';">Download</button>
+    <button id="common-button" type="button" onclick="window.location.href = 'https://discord.gg/jjD758Z8Wm';">Discord</button>
+    <button id="common-button" type="button" onclick="window.location.href = 'credits.html';">Credits</button>
+    <button id="common-button" type="button" onclick="window.location.href = 'features.html';">Features</button>
+    <button id="common-button" type="button" onclick="window.location.href = 'https://www.buymeacoffee.com/Snobbish';">Support Us</button>
    </div>
 </body>
 </html>

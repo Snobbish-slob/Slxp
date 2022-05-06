@@ -1,0 +1,27 @@
+#heading{
+    height: 40px;
+    width: 140px;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 2em;
+ }
+ #homebutton{
+    height: 40px;
+    width: 100px;
+    background: rgba(50,50,50,0.5);
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 1em;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+ }
+ #homebutton:hover{
+   font-size: 1.2em;
+   height: 45;
+   width: 105;
+ }
